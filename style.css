@@ -127,3 +127,25 @@ img {
     position: absolute;
     padding-top: 250px;
 }
+
+@media (max-width: 768px) {
+        /* 1. Reduce el tamaño de la letra del nombre grande (Prima Verenice) */
+    .area {
+        font-size: 2.8rem; /* Baja de 50px a 2.8rem */
+        margin-top: 10%; /* Ajusta el margen superior */
+    }
+
+    /* 2. Reduce el tamaño de la letra del mensaje escrito a máquina (Typed.js) */
+    #typed {
+        font-size: 1.2rem; /* Baja de 25px a 1.2rem para que quepa */
+        padding: 0 10px; /* Evita que el texto toque los bordes laterales del móvil */
+    }
+
+    /* 3. Ajuste para el botón de inicio */
+    .loader button {
+        width: 80%; /* Hace que el botón ocupe más ancho en el móvil */
+        font-size: 1.5rem; /* Reduce la fuente del botón */
+        height: 70px;
+    }
+
+}
